@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tell Story</title>
+  </head>
+  <body class="body">
+    <div class="search-container">
+      <select class="search-select">
+        <option>All</option>
+      </select>
+      <form action="">
+        <input type="text" class="search-input" />
+        <button id="search" class="buttn">Search</button>
+      </form>
+    </div>
+    <div class="container">
+      <div class="buttons">
+        <button id="thrillers" class="button">Mystery</button>
+        <button id="horror" class="button">Horror</button>
+        <button id="shakes" class="button">The Bard</button>
+        <button id="love" class="button">Love</button>
+      </div>
+      <div class="storytime">
+        <h3 class="title"></h3>
+        <p class="story"></p>
+        <div class="storymovediv">
+          <p class="storymove">
+            * Click a button above to generate a story based on the selected
+            genre
+          </p>
+          <p class="storymove">
+            * Use the plus and minus buttons below to reduce and increase font
+            size
+          </p>
+          <p class="storymove">
+            * Use the Reset button to reset font size to default
+          </p>
+          <p class="storymove">
+            * Use the Mode button to toggle between dark and light mode
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="bottom-buttons">
+      <button id="add" class="bottonalt">+</button>
+      <button id="minus" class="bottonalt">-</button>
+      <button id="reset" class="button">Reset</button>
+      <button id="mode" class="button">Mode</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
